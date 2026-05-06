@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Яков + Анастасия | 21.08.2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="bg"></div>
+        
+        <div class="photos">
+            <div class="photo">
+                <img src="1.jpg" alt="Аделя">
+                <div class="name adelya">Яков</div>
+            </div>
+            <div class="plus">+</div>
+            <div class="photo">
+                <img src="2.jpg" alt="Антон">
+                <div class="name anton">Анастасия</div>
+            </div>
+        </div>
+        
+        <div class="text">
+            <div class="title">МЫ ЖЕНИМСЯ !</div>
+            <div class="date">21.08.2026</div>
+        </div>
+    </section>
+
+    <section class="section-white">
+        <div class="content">
+            <div class="invitation-heading">
+                Дорогие и любимые!
+            </div>
+            <!-- Аудио плеер -->    
+            <!-- <div class="audio-player">
+                <audio id="wedding-audio" src="1.mp3" preload="auto"></audio>
+                <button class="play-btn" id="playPauseBtn">
+                    <svg class="play-icon" viewBox="0 0 24 24" width="24" height="24" fill="white">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    <svg class="pause-icon" viewBox="0 0 24 24" width="24" height="24" fill="white" style="display:none;">
+                        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                    </svg>
+                </button>
+                <span class="audio-title">Включите музыку</span>
+            </div> -->
+            <div class="invitation-text-main">
+                Мы верим, что этот день послужит началом нашей счастливой семейной жизни.
+            </div>
+            <div class="invitation-text-light">
+                Поэтому не представляем наш праздник без вашего участия.
+            </div>
+            <div class="invitation-text-light">
+                Наше навсегда начинается...
+            </div>
+            <!-- Таймер обратного отсчета -->
+<div class="countdown-timer">
+    <div class="countdown-block">
+        <span class="countdown-number" id="days">00</span>
+        <span class="countdown-label">дней</span>
+    </div>
+    <div class="countdown-block">
+        <span class="countdown-number" id="hours">00</span>
+        <span class="countdown-label">часов</span>
+    </div>
+    <div class="countdown-block">
+        <span class="countdown-number" id="minutes">00</span>
+        <span class="countdown-label">минут</span>
+    </div>
+    <div class="countdown-block">
+        <span class="countdown-number" id="seconds">00</span>
+        <span class="countdown-label">секунд</span>
+    </div>
+</div>
+        </div>
+    </section>
+
+<section class="section-location">
+    <div class="location-bg"></div>
+    <div class="location-container">
+        <h2 class="location-title">Локация</h2>
+        <div class="location-info">
+            <p class="location-name">База отдыха "ТЕРН"</p>
+            <p class="location-address">Адрес: гю Пермь, Сылвенский тракт</p>
+        </div>
+        
+        <!-- Фото локации в стиле Полароид -->
+        <div class="location-photos">
+            <div class="location-photo photo-1">
+                <img src="loc1.jpg" alt="Локация 1">
+                <div class="location-photo-caption">Уютный шатер</div>
+            </div>
+            <div class="location-photo photo-2">
+                <img src="loc2.jpg" alt="Локация 2">
+                <div class="location-photo-caption">Атмосфера</div>
+            </div>
+        </div>
+        
+        <div class="location-map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4321920a5f69d8337d924734a41c142cff99cba820c33e10138ee3f9c8e52883&amp;source=constructor" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<section class="section-program">
+    <div class="program-container">
+        <h2 class="program-title">Программа дня</h2>
+        
+        <div class="program-item">
+            <div class="program-time">15:30</div>
+            <img class="program-icon" src="s2.png" alt="разделитель">
+            <div class="program-content">
+                <div class="program-subtitle">ФУРШЕТ</div>
+                <div class="program-desc-line">
+                    <img class="program-side-img" src="str2.jpg" alt="">
+                    <div class="program-description">
+                        Время пролетит<br>незаметно за игристым<br>и новыми знакомствами
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="program-item program-item-reverse">
+            <div class="program-content">
+                <div class="program-subtitle">ЦЕРЕМОНИЯ</div>
+                <div class="program-desc-line">
+                    <div class="program-description">
+                        Будем очень рады<br>разделить этот важный<br>момент с вами
+                    </div>
+                    <img class="program-side-img" src="str.jpg" alt="">
+                </div>
+            </div>
+            <img class="program-icon" src="s2.png" alt="разделитель">
+            <div class="program-time">16:00</div>
+        </div>
+        
+        <div class="program-item">
+            <div class="program-time">17:00</div>
+            <img class="program-icon" src="s2.png" alt="разделитель">
+            <div class="program-content">
+                <div class="program-subtitle">БАНКЕТ</div>
+                <div class="program-desc-line">
+                    <img class="program-side-img" src="str2.jpg" alt="">
+                    <div class="program-description">
+                        Время пролетит<br>незаметно за игристым<br>и новыми знакомствами
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="program-item program-item-reverse">
+            <div class="program-content">
+                <div class="program-subtitle">ОКОЧАНИЕ БАНКЕТА</div>
+                <div class="program-desc-line">
+                    <div class="program-description">
+                        К сожалению, даже<br>такие радостные дни<br>заканчиваются
+                    </div>
+                    <!-- <img class="program-side-img" src="str.jpg" alt=""> -->
+                </div>
+            </div>
+            <img class="program-icon" src="s2.png" alt="разделитель">
+            <div class="program-time">23:00</div>
+        </div>
+    </div>
+</section>
+
+<section class="section-dresscode">
+    <div class="dresscode-container">
+        <h2 class="dresscode-title">Дресс-код</h2>
+        <p class="dresscode-subtitle">Мы будем рады, если вы поддержите цветовоую гамму нашего торжества</p>
+        
+        <div class="color-swatches">
+            <div class="color-stroke stroke-1"></div>
+            <div class="color-stroke stroke-2"></div>
+            <div class="color-stroke stroke-3"></div>
+            <div class="color-stroke stroke-4"></div>
+            <div class="color-stroke stroke-5"></div>
+            <!-- <div class="color-stroke stroke-6"></div> -->
+        </div>
+
+        <!-- Фото нарядов -->
+        <div class="dress-inspo">
+            <div class="dress-inspo-title">
+                вдохновляйтесь нарядами
+            </div>
+
+            <div class="dress-inspo-photos">
+                <img src="dress1.png" alt="Образ 1" class="dress-photo">
+                <img src="dress2.png" alt="Образ 2" class="dress-photo">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-wishes">
+    <div class="wishes-bg"></div>
+    <div class="wishes-container">
+        <!-- Декоративные SVG элементы внутри контейнера -->
+        <svg class="wishes-svg svg-1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50,15 L61,35 L85,40 L68,58 L72,82 L50,71 L28,82 L32,58 L15,40 L39,35 Z" fill="#e8a0b0" opacity="0.6"/>
+        </svg>
+        
+        <svg class="wishes-svg svg-2" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="30" fill="#a3b382" opacity="0.4"/>
+            <circle cx="50" cy="50" r="20" fill="#a3b382" opacity="0.6"/>
+            <circle cx="50" cy="50" r="10" fill="#a3b382" opacity="0.8"/>
+        </svg>
+        
+        <svg class="wishes-svg svg-3" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20,50 Q35,30 50,50 Q65,70 80,50" stroke="#e8a0b0" stroke-width="2.5" fill="none" opacity="0.6"/>
+            <path d="M20,60 Q35,40 50,60 Q65,80 80,60" stroke="#a3b382" stroke-width="2.5" fill="none" opacity="0.6"/>
+        </svg>
+        
+        <svg class="wishes-svg svg-4" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50,20 L55,35 L70,35 L58,45 L63,60 L50,50 L37,60 L42,45 L30,35 L45,35 Z" fill="#e8a0b0" opacity="0.5"/>
+        </svg>
+        
+        <h2 class="wishes-title">Детали</h2>
+        <div class="wishes-text">
+            <p><span class="wishes-highlight highlight-pink"> Самым главным подарком</span> для нас будет ваше хорошее настроение на нашей свадьбе. <span class="wishes-highlight highlight-green">А чтобы руки были свободны для крепких объятий</span>, будем рады легким подаркам в конвертиках.</p>
+            
+            <p> Контакты для связи: <br> наш организатор Линара <br> +7 (902) 793-58-52.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section-guest">
+    <div class="guest-container">
+        <h2 class="guest-title">Подтверждение присутствия</h2>
+            <p class="guest-deadline">
+                Пожалуйста, ответьте до 21 июля
+            </p>
+        
+        <!-- <div class="guest-links">
+            <a href="https://vk.me/join/7xfLy9fzPq0DtfMiuyPTfXA5IbtW_0VwEFA=" class="guest-link telegram" target="_blank">
+                 <span class="link-icon">📱</span> -->
+                
+            
+            <!-- <a href="#" class="guest-link vk" target="_blank">
+                <span class="link-icon">💙</span>
+                VKontakte
+            </a> 
+        </div> -->
+        
+        <form class="guest-form">
+            <div class="form-group">
+                <label for="name" class="form-label">Имя и фамилия</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Например: Иван Петров">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Сможете ли вы присутствовать?</label>
+                <div class="attendance-options">
+                    <label class="attendance-radio">
+                        <input type="radio" name="attendance" value="да"> 
+                        <span>Да, буду</span>
+                    </label>
+                    <label class="attendance-radio">
+                        <input type="radio" name="attendance" value="нет"> 
+                        <span>Нет, не смогу</span>
+                    </label>
+                    <label class="attendance-radio">
+                        <input type="radio" name="attendance" value="возможно"> 
+                        <span>Возможно, уточню позже</span>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- <div class="form-group">
+                <label for="song" class="form-label">Какую песню вы хотели бы услышать на свадьбе?</label>
+                <input type="text" id="song" name="song" class="form-input" placeholder="Название песни и исполнитель">
+            </div> -->
+            
+            <!-- <div class="form-group">
+                <label class="form-label">Ваши предпочтения по напиткам</label>
+                <div class="drinks-options">
+                    <label class="drink-checkbox">
+                        <input type="checkbox" name="drink" value="белое вино"> 
+                        <span>Белое вино</span>
+                    </label>
+                    <label class="drink-checkbox">
+                        <input type="checkbox" name="drink" value="красное вино"> 
+                        <span>Красное вино</span>
+                    </label>
+                    <label class="drink-checkbox">
+                        <input type="checkbox" name="drink" value="крепкий алкоголь"> 
+                        <span>Крепкий алкоголь</span>
+                    </label>
+                    <label class="drink-checkbox">
+                        <input type="checkbox" name="drink" value="безалкогольные"> 
+                        <span>Безалкогольные</span>
+                    </label>
+                </div>
+            </div> -->
+            
+            <button type="button" class="form-button" onclick="alert('Форма пока не активна. Скоро появится!')">Отправить</button>
+        </form>
+    </div>
+</section>
+
+<script>
+    // Анимация при скролле
+    document.addEventListener('DOMContentLoaded', function() {
+        const sections = document.querySelectorAll('.hero, .section-white, .section-location, .section-program, .section-dresscode, .section-wishes, .section-guest');
+        
+        function checkVisibility() {
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+                if (rect.top < windowHeight - 100 && rect.bottom > 0) {
+                    section.classList.add('visible');
+                }
+            });
+        }
+        
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('resize', checkVisibility);
+    });
+
+    // Аудио плеер
+    const audio = document.getElementById('wedding-audio');
+    const playBtn = document.getElementById('playPauseBtn');
+    const playIcon = document.querySelector('.play-icon');
+    const pauseIcon = document.querySelector('.pause-icon');
+
+    if (playBtn) {
+        playBtn.addEventListener('click', function() {
+            if (audio.paused) {
+                audio.play();
+                playIcon.style.display = 'none';
+                pauseIcon.style.display = 'block';
+            } else {
+                audio.pause();
+                playIcon.style.display = 'block';
+                pauseIcon.style.display = 'none';
+            }
+        });
+
+        audio.addEventListener('ended', function() {
+            playIcon.style.display = 'block';
+            pauseIcon.style.display = 'none';
+        });
+    }
+
+    // Таймер обратного отсчета
+    function updateCountdown() {
+        const weddingDate = new Date(2026, 7, 21, 15, 30, 0);
+        const now = new Date();
+        const diff = weddingDate - now;
+        
+        if (diff <= 0) {
+            document.getElementById('days').textContent = '00';
+            document.getElementById('hours').textContent = '00';
+            document.getElementById('minutes').textContent = '00';
+            document.getElementById('seconds').textContent = '00';
+            return;
+        }
+        
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+        
+        document.getElementById('days').textContent = days.toString().padStart(2, '0');
+        document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+        document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+        document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // ========== ОТПРАВКА ФОРМЫ ==========
+    // ВАШ URL ОТ APPS SCRIPT - ВСТАВЬТЕ СЮДА ПРАВИЛЬНЫЙ URL
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxKcuFGjLkmc1ZkUl9cKxUf3OO69NTDHsxj/exec';
+    
+    // Функция показа уведомлений
+    function showNotification(message, isError = false) {
+        let notification = document.getElementById('form-notification');
+        if (!notification) {
+            notification = document.createElement('div');
+            notification.id = 'form-notification';
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 15px 30px;
+                border-radius: 50px;
+                font-family: 'Kontrabanda', 'Playpen Sans', cursive;
+                font-size: 16px;
+                font-weight: 500;
+                z-index: 9999;
+                text-align: center;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+                transition: opacity 0.3s ease;
+            `;
+            document.body.appendChild(notification);
+        }
+        
+        notification.style.backgroundColor = isError ? '#f44336' : '#4CAF50';
+        notification.style.color = 'white';
+        notification.textContent = message;
+        notification.style.display = 'block';
+        notification.style.opacity = '1';
+        
+        setTimeout(() => {
+            notification.style.opacity = '0';
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 300);
+        }, 4000);
+    }
+
+    // Отправка формы
+    const form = document.querySelector('.guest-form');
+    
+    if (form) {
+        // Находим кнопку и заменяем её обработчик
+        const submitBtn = form.querySelector('.form-button');
+        
+        // Убираем старый onclick
+        submitBtn.removeAttribute('onclick');
+        
+        submitBtn.addEventListener('click', async function(e) {
+            e.preventDefault();
+            
+            // Получаем данные из формы
+            const nameInput = document.getElementById('name');
+            const attendanceRadios = document.querySelectorAll('input[name="attendance"]');
+            const songInput = document.getElementById('song');
+            const drinkCheckboxes = document.querySelectorAll('input[name="drink"]:checked');
+            
+            const name = nameInput ? nameInput.value.trim() : '';
+            
+            let attendance = '';
+            for (const radio of attendanceRadios) {
+                if (radio.checked) {
+                    attendance = radio.value;
+                    break;
+                }
+            }
+            
+            const song = songInput ? songInput.value.trim() : '';
+            const drinks = Array.from(drinkCheckboxes).map(cb => cb.value);
+            
+            // Валидация
+            if (!name) {
+                showNotification('Пожалуйста, укажите имя и фамилию', true);
+                return;
+            }
+            
+            if (!attendance) {
+                showNotification('Пожалуйста, выберите вариант присутствия', true);
+                return;
+            }
+            
+            // Блокируем кнопку
+            const originalText = submitBtn.textContent;
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Отправка...';
+            showNotification('Отправляем ваш ответ...', false);
+            
+            try {
+                // Формируем данные для отправки
+                const formData = new URLSearchParams();
+                formData.append('name', name);
+                formData.append('attendance', attendance);
+                formData.append('song', song);
+                
+                for (const drink of drinks) {
+                    formData.append('drink', drink);
+                }
+                
+                // Отправляем POST запрос
+                const response = await fetch(SCRIPT_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: formData.toString()
+                });
+                
+                const result = await response.json();
+                
+                if (result.result === 'success') {
+                    showNotification('✅ Спасибо! Ваш ответ сохранен.', false);
+                    // Очищаем форму
+                    if (nameInput) nameInput.value = '';
+                    if (songInput) songInput.value = '';
+                    attendanceRadios.forEach(radio => radio.checked = false);
+                    drinkCheckboxes.forEach(cb => cb.checked = false);
+                } else {
+                    showNotification('❌ Ошибка: ' + result.message, true);
+                }
+            } catch (error) {
+                console.error('Ошибка:', error);
+                showNotification('❌ Ошибка отправки. Попробуйте еще раз.', true);
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            }
+        });
+    }
+</script>
+</body>
+</html>
